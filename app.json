@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "meu-app-auth",
+    "slug": "meu-app-auth",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light"
+  }
+}

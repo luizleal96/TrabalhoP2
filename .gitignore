@@ -25,7 +25,7 @@ coverage
 # nyc test coverage
 .nyc_output
 
-# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+# Grunt intermediate storage (https://gruntjs.com/creating-plugins#grunt-intermediate-storage)
 .grunt
 
 # Bower dependency directory (https://bower.io/)
@@ -88,8 +88,8 @@ dist
 
 # Gatsby files
 .cache/
-# Comment in the public line in if your project uses Gatsby and not Next.js
-# https://nextjs.org/blog/next-9-1#public-directory-support
+# Comment in the public line in if your project uses Gatsby instead of Next.js
+# https://nextjs.org/blog/next-9-1#public
 # public
 
 # vuepress build output
@@ -107,7 +107,7 @@ dist
 # vitepress cache directory
 **/.vitepress/cache
 
-# Docusaurus cache and generated files
+# Docusaurus files
 .docusaurus
 
 # Serverless directories
@@ -119,13 +119,18 @@ dist
 # DynamoDB Local files
 .dynamodb/
 
-# Firebase cache directory
+# Firebase cache
 .firebase/
 
 # TernJS port file
 .tern-port
 
-# Stores Visual Studio Code versions used for testing Visual Studio Code extensions
+# Expo build and cache output
+.expo/
+.expo-shared/
+web-build/
+
+# Stores Visual Studio Code versions used for testing VS Code extensions
 .vscode-test
 
 # pnpm
@@ -148,10 +153,18 @@ vite.config.ts.timestamp-*
 # Astro generated types
 .astro/
 
-# Turbo Repo (https://turborepo.dev/)
+# Turbo Repo
 .turbo
 
-# Nx (https://nx.dev/)
+# Nx
 .nx/cache
 .nx/workspace-data
 .nx/migrate-runs
+
+# Local database credentials
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*.mobileprovision
