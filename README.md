@@ -16,7 +16,7 @@ Aplicativo em React Native/Expo com cadastro, login, verificação de sessão e 
    npm install
    ```
 
-2. Crie o arquivo `.env` na raiz do projeto usando `.env.example` como referência. Configure a **Auth Base URL** exibida em Neon Console > Better Auth > Configuration:
+2. Crie um arquivo `.env` na raiz do projeto e configure a **Auth Base URL** exibida em Neon Console > Better Auth > Configuration:
 
    ```env
    EXPO_PUBLIC_NEON_AUTH_URL=https://seu-endpoint.neonauth.../neondb/auth
